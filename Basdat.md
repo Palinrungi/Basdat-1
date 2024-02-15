@@ -1,5 +1,5 @@
 # Selamat mengerjakan Tugas Basis Data*
-
+### Created by Bintang Palinrungi
 
 setelah start mysql pada xampp (pastikan tidak ada error)
 1. buka command prompt
