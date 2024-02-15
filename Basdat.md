@@ -11,7 +11,7 @@ setelah start mysql pada xampp (pastikan tidak ada error)
 
 -------------------------------------------TABEL PRODI---------------------------------------------------
 
-Buat tabel Prodi dengan kode :
+### Buat tabel Prodi dengan kode :
 
     CREATE TABLE prodi (
      Kode_prodi CHAR(6) PRIMARY KEY,
@@ -26,7 +26,7 @@ Buat tabel Prodi dengan kode :
 
 ---------------------------------------TABEL MAHASISWA---------------------------------------------------
 
- Buat Tabel mahasiswa dengan kode:
+ ### Buat Tabel mahasiswa dengan kode:
     
     CREATE TABLE mahasiswa (
      NIM INT,
@@ -50,7 +50,7 @@ Buat tabel Prodi dengan kode :
 
 ---------------------------------------TABEL MATA KULIAH-------------------------------------------------
 
- Buat tabel mata kuliah dengan kode :
+ ### Buat tabel mata kuliah dengan kode :
  
      CREATE TABLE mata_kuliah (
      Mk_id CHAR(10) PRIMARY KEY,
@@ -67,7 +67,7 @@ Buat tabel Prodi dengan kode :
 
 -------------------------------------------TABEL RUANG---------------------------------------------------
 
-Buat tabel ruang dengan kode :
+### Buat tabel ruang dengan kode :
     
     CREATE TABLE Ruang(
      Ruang_id CHAR(3) PRIMARY KEY,
@@ -83,7 +83,7 @@ Buat tabel ruang dengan kode :
 
 ------------------------------------------TABEL DOSEN----------------------------------------------------
 
-Buat tabel dosen dengan kode :
+### Buat tabel dosen dengan kode :
 
     CREATE TABLE dosen (
      NIP INT PRIMARY KEY,
@@ -109,7 +109,7 @@ Buat tabel dosen dengan kode :
 
 ----------------------------------------TABEL MENGAJAR---------------------------------------------------
 
-Buat tabel mengajar dengan kode :
+### Buat tabel mengajar dengan kode :
     
     CREATE TABLE mengajar (
      Id_mengajar INT AUTO_INCREMENT PRIMARY KEY,
@@ -132,7 +132,7 @@ Buat tabel mengajar dengan kode :
 
 -------------------------------------------TABEL NILAI---------------------------------------------------
 
-Buat tabel nilai dengan kode :
+### Buat tabel nilai dengan kode :
 
     CREATE TABLE nilai (
      NIM INT,
@@ -156,7 +156,7 @@ Buat tabel nilai dengan kode :
 
 ------------------------------------MENAMBAH KOLOM AGAMA-------------------------------------------------
 
-Menambah kolom agama pada tabel mahasiswa :
+### Menambah kolom agama pada tabel mahasiswa :
    
     ALTER TABLE student ADD COLUMN Agama VARCHAR(10) AFTER Kode_prodi;  
 
@@ -164,14 +164,14 @@ Menambah kolom agama pada tabel mahasiswa :
 
 ----------------------------------MENAMBAH KOLOM RID-----------------------------------------------------
 
-Menambah kolom Rid pada tabel ruang :
+### Menambah kolom Rid pada tabel ruang :
 
     ALTER TABLE ruang ADD COLUMN Rid  CHAR(10) FIRST;     
 
 --------------------------------------------------------------------------------------------------------    
 -----------------------------------MENAMBAH KOLOM GRADE--------------------------------------------------
 
-Menambah kolom Grade pada tabel nilai setelah kolom inisial :
+### Menambah kolom Grade pada tabel nilai setelah kolom inisial :
 
      ALTER TABLE nilai ADD COLUMN Grade CHAR AFTER Inisial;  
 
@@ -179,7 +179,7 @@ Menambah kolom Grade pada tabel nilai setelah kolom inisial :
 
 -------------------------------MENGUBAH NAMA TABEL MAHASISWA---------------------------------------------
 
-Mengubah nama tabel mahasiswa menjadi student :
+### Mengubah nama tabel mahasiswa menjadi student :
     
      ALTER TABLE mahasiswa RENAME TO student;
      
@@ -187,7 +187,7 @@ Mengubah nama tabel mahasiswa menjadi student :
 
  -------------------------------JADIKAN NIM SEBAGAI PRIMARY KEY---------------------------------------   
 
- Jadikan NIM sebagai PRIMARY KEY pada tabel mahasiswa :
+ ### Jadikan NIM sebagai PRIMARY KEY pada tabel mahasiswa :
 
      ALTER TABLE student ADD PRIMARY KEY (NIM);
 
