@@ -20,6 +20,7 @@ Buat tabel Prodi dengan kode :
     (lalu enter)
 
  ketik    show tables;  (lalu enter)
+ 
  ketik    desc prodi;   (lalu enter)
 
 ---------------------------------------------------------------------------------------------------------
@@ -44,6 +45,7 @@ Buat tabel Prodi dengan kode :
      (lalu enter)
 
  ketik    show tables;      (lalu enter)
+ 
  ketik    desc mahasiswa;   (lalu enter)
 
  --------------------------------------------------------------------------------------------------------
@@ -61,6 +63,7 @@ Buat tabel Prodi dengan kode :
     (lalu enter)
 
  ketik    show tables;         (lalu enter)
+ 
  ketik    desc mata_kuliah;    (lalu enter)
 
 ---------------------------------------------------------------------------------------------------------
@@ -77,6 +80,7 @@ Buat tabel ruang dengan kode :
     (lalu enter)
 
  ketik    show tables;     (lalu enter)
+ 
  ketik    desc ruang;      (lalu enter)
 
 ---------------------------------------------------------------------------------------------------------
@@ -103,6 +107,7 @@ Buat tabel dosen dengan kode :
      (lalu enter)
 
  ketik    show tables;     (lalu enter)
+ 
  ketik    desc dosen;      (lalu enter)
 
 ---------------------------------------------------------------------------------------------------------
@@ -126,6 +131,7 @@ Buat tabel mengajar dengan kode :
     (lalu enter) 
 
  ketik    show tables;        (lalu enter)
+ 
  ketik    desc mengajar;      (lalu enter)
 
 ---------------------------------------------------------------------------------------------------------
@@ -149,6 +155,7 @@ Buat tabel nilai dengan kode :
      );
     (lalu enter)
  ketik    show tables;        (lalu enter)
+ 
  ketik    desc nilai;         (lalu enter)
 
 ---------------------------------------------------------------------------------------------------------
