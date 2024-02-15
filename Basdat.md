@@ -10,7 +10,8 @@ setelah start mysql pada xampp (pastikan tidak ada error)
 6. ketik    show databases;      (lalu enter)
 
 -------------------------------------------TABEL PRODI---------------------------------------------------
- Buat tabel Prodi dengan kode :
+
+Buat tabel Prodi dengan kode :
    
  CREATE TABLE Prodi (
     Kode_prodi CHAR(6) PRIMARY KEY,
@@ -24,6 +25,7 @@ setelah start mysql pada xampp (pastikan tidak ada error)
 ---------------------------------------------------------------------------------------------------------
 
 ---------------------------------------TABEL MAHASISWA---------------------------------------------------
+
  Buat Tabel mahasiswa dengan kode:
     
     CREATE TABLE Mahasiswa (
@@ -47,6 +49,7 @@ setelah start mysql pada xampp (pastikan tidak ada error)
  --------------------------------------------------------------------------------------------------------
 
 ---------------------------------------TABEL MATA KULIAH-------------------------------------------------
+
  Buat tabel mata kuliah dengan kode :
  
      CREATE TABLE mata_kuliah (
@@ -63,6 +66,7 @@ setelah start mysql pada xampp (pastikan tidak ada error)
 ---------------------------------------------------------------------------------------------------------
 
 -------------------------------------------TABEL RUANG---------------------------------------------------
+
 Buat tabel ruang dengan kode :
     
     CREATE TABLE Ruang(
@@ -78,6 +82,7 @@ Buat tabel ruang dengan kode :
 ---------------------------------------------------------------------------------------------------------
 
 ------------------------------------------TABEL DOSEN----------------------------------------------------
+
 Buat tabel dosen dengan kode :
 
     CREATE TABLE dosen (
@@ -103,6 +108,7 @@ Buat tabel dosen dengan kode :
 ---------------------------------------------------------------------------------------------------------
 
 ----------------------------------------TABEL MENGAJAR---------------------------------------------------
+
 Buat tabel mengajar dengan kode :
     
     CREATE TABLE mengajar (
@@ -125,6 +131,7 @@ Buat tabel mengajar dengan kode :
 ---------------------------------------------------------------------------------------------------------
 
 -------------------------------------------TABEL NILAI---------------------------------------------------
+
 Buat tabel nilai dengan kode :
 
     CREATE TABLE nilai (
@@ -147,6 +154,7 @@ Buat tabel nilai dengan kode :
 ---------------------------------------------------------------------------------------------------------
 
 ------------------------------------MENAMBAH KOLOM AGAMA-------------------------------------------------
+
 Menambah kolom agama pada tabel mahasiswa :
    
     ALTER TABLE student ADD COLUMN Agama VARCHAR(10) AFTER Kode_prodi;  
@@ -155,6 +163,7 @@ Menambah kolom agama pada tabel mahasiswa :
 ---------------------------------------------------------------------------------------------------------
 
 ----------------------------------MENAMBAH KOLOM RID-----------------------------------------------------
+
 Menambah kolom Rid pada tabel ruang :
 
     ALTER TABLE ruang ADD COLUMN Rid  CHAR(10) FIRST;     
@@ -162,6 +171,7 @@ Menambah kolom Rid pada tabel ruang :
 
 --------------------------------------------------------------------------------------------------------    
 -----------------------------------MENAMBAH KOLOM GRADE--------------------------------------------------
+
 Menambah kolom Grade pada tabel nilai setelah kolom inisial :
 
      ALTER TABLE nilai ADD COLUMN Grade CHAR AFTER Inisial;  
@@ -170,6 +180,7 @@ Menambah kolom Grade pada tabel nilai setelah kolom inisial :
 --------------------------------------------------------------------------------------------------------
 
 -------------------------------MENGUBAH NAMA TABEL MAHASISWA---------------------------------------------
+
 Mengubah nama tabel mahasiswa menjadi student :
     
      ALTER TABLE mahasiswa RENAME TO student;
@@ -178,6 +189,7 @@ Mengubah nama tabel mahasiswa menjadi student :
  -------------------------------------------------------------------------------------------------------
 
  -------------------------------JADIKAN NIM SEBAGAI PRIMARY KEY---------------------------------------   
+
  Jadikan NIM sebagai PRIMARY KEY pada tabel mahasiswa :
 
      ALTER TABLE student ADD PRIMARY KEY (NIM);
