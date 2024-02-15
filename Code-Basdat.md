@@ -9,7 +9,7 @@ setelah start mysql pada xampp (pastikan tidak ada error)
 5. ketik    create database db_data_mhs;  (lalu enter)
 6. ketik    show databases;      (lalu enter)
 
--------------------------------------------TABEL PRODI---------------------------------------------------
+## TABEL PRODI
 
 ### Buat tabel Prodi dengan kode :
 
@@ -22,9 +22,9 @@ setelah start mysql pada xampp (pastikan tidak ada error)
 
     DESCRIBE prodi;
     
----------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------
 
----------------------------------------TABEL MAHASISWA---------------------------------------------------
+## TABEL MAHASISWA
 
  ### Buat Tabel mahasiswa dengan kode:
     
@@ -48,7 +48,7 @@ setelah start mysql pada xampp (pastikan tidak ada error)
      
  --------------------------------------------------------------------------------------------------------
 
----------------------------------------TABEL MATA KULIAH-------------------------------------------------
+## TABEL MATA KULIAH
 
  ### Buat tabel mata kuliah dengan kode :
  
@@ -65,7 +65,7 @@ setelah start mysql pada xampp (pastikan tidak ada error)
     
 ---------------------------------------------------------------------------------------------------------
 
--------------------------------------------TABEL RUANG---------------------------------------------------
+## TABEL RUANG
 
 ### Buat tabel ruang dengan kode :
     
@@ -81,7 +81,7 @@ setelah start mysql pada xampp (pastikan tidak ada error)
     
 ---------------------------------------------------------------------------------------------------------
 
-------------------------------------------TABEL DOSEN----------------------------------------------------
+## TABEL DOSEN
 
 ### Buat tabel dosen dengan kode :
 
@@ -107,7 +107,7 @@ setelah start mysql pada xampp (pastikan tidak ada error)
 
 ---------------------------------------------------------------------------------------------------------
 
-----------------------------------------TABEL MENGAJAR---------------------------------------------------
+## TABEL MENGAJAR
 
 ### Buat tabel mengajar dengan kode :
     
@@ -130,7 +130,7 @@ setelah start mysql pada xampp (pastikan tidak ada error)
 
 ---------------------------------------------------------------------------------------------------------
 
--------------------------------------------TABEL NILAI---------------------------------------------------
+## TABEL NILAI
 
 ### Buat tabel nilai dengan kode :
 
@@ -154,7 +154,7 @@ setelah start mysql pada xampp (pastikan tidak ada error)
 
 ---------------------------------------------------------------------------------------------------------
 
-------------------------------------MENAMBAH KOLOM AGAMA-------------------------------------------------
+## ENAMBAH KOLOM AGAMA 
 
 ### Menambah kolom agama pada tabel mahasiswa :
    
@@ -162,14 +162,14 @@ setelah start mysql pada xampp (pastikan tidak ada error)
 
 ---------------------------------------------------------------------------------------------------------
 
-----------------------------------MENAMBAH KOLOM RID-----------------------------------------------------
+## MENAMBAH KOLOM RID
 
 ### Menambah kolom Rid pada tabel ruang :
 
     ALTER TABLE ruang ADD COLUMN Rid  CHAR(10) FIRST;     
 
 --------------------------------------------------------------------------------------------------------    
------------------------------------MENAMBAH KOLOM GRADE--------------------------------------------------
+## MENAMBAH KOLOM GRADE
 
 ### Menambah kolom Grade pada tabel nilai setelah kolom inisial :
 
@@ -177,7 +177,7 @@ setelah start mysql pada xampp (pastikan tidak ada error)
 
 --------------------------------------------------------------------------------------------------------
 
--------------------------------MENGUBAH NAMA TABEL MAHASISWA---------------------------------------------
+## MENGUBAH NAMA TABEL MAHASISWA
 
 ### Mengubah nama tabel mahasiswa menjadi student :
     
@@ -185,7 +185,7 @@ setelah start mysql pada xampp (pastikan tidak ada error)
      
  -------------------------------------------------------------------------------------------------------
 
- -------------------------------JADIKAN NIM SEBAGAI PRIMARY KEY---------------------------------------   
+ ## JADIKAN NIM SEBAGAI PRIMARY KEY  
 
  ### Jadikan NIM sebagai PRIMARY KEY pada tabel mahasiswa :
 
