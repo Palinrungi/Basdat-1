@@ -12,25 +12,22 @@ setelah start mysql pada xampp (pastikan tidak ada error)
 -------------------------------------------TABEL PRODI---------------------------------------------------
 
 Buat tabel Prodi dengan kode :
-   
-   CREATE TABLE Prodi (
-    Kode_prodi CHAR(6) PRIMARY KEY,
-    Nama_prodi CHAR(30)
-    );
+
+    CREATE TABLE prodi (
+     Kode_prodi CHAR(6) PRIMARY KEY,
+     Nama_prodi CHAR(30)
+     );
     
-    (lalu enter)
+   ### Menampilkan tabel mahasiswa
 
- ketik    show tables;  (lalu enter)
- 
- ketik    desc prodi;   (lalu enter)
-
+    DESCRIBE mahasiswa;
 ---------------------------------------------------------------------------------------------------------
 
 ---------------------------------------TABEL MAHASISWA---------------------------------------------------
 
  Buat Tabel mahasiswa dengan kode:
     
-    CREATE TABLE Mahasiswa (
+    CREATE TABLE mahasiswa (
      NIM INT,
      Nama_mhs CHAR(50),
      Sex ENUM('L', 'P') DEFAULT 'L',
