@@ -1,5 +1,5 @@
 # Tugas Basis Data  :Membuat Database dengan DBMS XAMPP✨
-### Created by Bintang Palinrungi ⭐
+### Created by Bintang Palinrungi ✔️
 
 setelah start mysql pada xampp (pastikan tidak ada error)
 1. buka command prompt
