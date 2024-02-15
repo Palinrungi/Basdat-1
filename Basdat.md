@@ -13,7 +13,7 @@ setelah start mysql pada xampp (pastikan tidak ada error)
 
 Buat tabel Prodi dengan kode :
    
- CREATE TABLE Prodi (
+   CREATE TABLE Prodi (
     Kode_prodi CHAR(6) PRIMARY KEY,
     Nama_prodi CHAR(30)
     );
