@@ -1,4 +1,4 @@
-# Selamat mengerjakan Tugas Basis Data ✨
+# Tugas Basis Data  :Membuat Database dengan DBMS XAMPP✨
 ### Created by Bintang Palinrungi ⭐
 
 setelah start mysql pada xampp (pastikan tidak ada error)
