@@ -152,9 +152,7 @@ setelah start mysql pada xampp (pastikan tidak ada error)
 
     DESCRIBE nilai;
 
----------------------------------------------------------------------------------------------------------
-
-## ENAMBAH KOLOM AGAMA 
+--------------------------------------------------------------------------------------------------------- 
 
 ### Menambah kolom agama pada tabel mahasiswa :
    
@@ -162,14 +160,11 @@ setelah start mysql pada xampp (pastikan tidak ada error)
 
 ---------------------------------------------------------------------------------------------------------
 
-## MENAMBAH KOLOM RID
-
 ### Menambah kolom Rid pada tabel ruang :
 
     ALTER TABLE ruang ADD COLUMN Rid  CHAR(10) FIRST;     
 
 --------------------------------------------------------------------------------------------------------    
-## MENAMBAH KOLOM GRADE
 
 ### Menambah kolom Grade pada tabel nilai setelah kolom inisial :
 
@@ -177,15 +172,11 @@ setelah start mysql pada xampp (pastikan tidak ada error)
 
 --------------------------------------------------------------------------------------------------------
 
-## MENGUBAH NAMA TABEL MAHASISWA
-
 ### Mengubah nama tabel mahasiswa menjadi student :
     
      ALTER TABLE mahasiswa RENAME TO student;
      
- -------------------------------------------------------------------------------------------------------
-
- ## JADIKAN NIM SEBAGAI PRIMARY KEY  
+ ------------------------------------------------------------------------------------------------------- 
 
  ### Jadikan NIM sebagai PRIMARY KEY pada tabel mahasiswa :
 
