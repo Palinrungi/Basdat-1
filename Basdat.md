@@ -1,5 +1,5 @@
 # Tugas Basis Data  :Membuat Database dengan DBMS XAMPP✨
-### Created by Bintang Palinrungi ✔️
+## Created by Bintang Palinrungi ✔️
 
 setelah start mysql pada xampp (pastikan tidak ada error)
 1. buka command prompt
@@ -18,9 +18,10 @@ Buat tabel Prodi dengan kode :
      Nama_prodi CHAR(30)
      );
     
-   ### Menampilkan tabel mahasiswa
+   ### Menampilkan tabel prodi
 
     DESCRIBE mahasiswa;
+    
 ---------------------------------------------------------------------------------------------------------
 
 ---------------------------------------TABEL MAHASISWA---------------------------------------------------
@@ -40,12 +41,11 @@ Buat tabel Prodi dengan kode :
      Kode_prodi CHAR(6),
      FOREIGN KEY (Kode_prodi) REFERENCES Prodi(Kode_prodi)
      );
-     (lalu enter)
 
- ketik    show tables;      (lalu enter)
- 
- ketik    desc mahasiswa;   (lalu enter)
+ ### Menampilkan tabel mahasiswa
 
+     DESCRIBE mahasiswa;
+     
  --------------------------------------------------------------------------------------------------------
 
 ---------------------------------------TABEL MATA KULIAH-------------------------------------------------
@@ -58,12 +58,11 @@ Buat tabel Prodi dengan kode :
      Jumlah_jam INT,
      SKS INT
      );
-    (lalu enter)
 
- ketik    show tables;         (lalu enter)
- 
- ketik    desc mata_kuliah;    (lalu enter)
+ ### Menampilkan tabel mata kuliah
 
+    DESCRIBE mata_kuliah;
+    
 ---------------------------------------------------------------------------------------------------------
 
 -------------------------------------------TABEL RUANG---------------------------------------------------
@@ -75,12 +74,11 @@ Buat tabel ruang dengan kode :
      Nama_ruang CHAR(20),
      Kapasitas INT
      );
-    (lalu enter)
 
- ketik    show tables;     (lalu enter)
- 
- ketik    desc ruang;      (lalu enter)
+ ### Menampilkan tabel ruang
 
+    DESCRIBE ruang;
+    
 ---------------------------------------------------------------------------------------------------------
 
 ------------------------------------------TABEL DOSEN----------------------------------------------------
@@ -102,11 +100,10 @@ Buat tabel dosen dengan kode :
      NoHp VARCHAR(12),
      Salary INT
      );
-     (lalu enter)
 
- ketik    show tables;     (lalu enter)
- 
- ketik    desc dosen;      (lalu enter)
+### Menampilkan tabel dosen
+
+    DESCRIBE dosen;
 
 ---------------------------------------------------------------------------------------------------------
 
@@ -126,11 +123,10 @@ Buat tabel mengajar dengan kode :
      FOREIGN KEY (Inisial) REFERENCES dosen(Inisial),
      FOREIGN KEY (Ruang_id) REFERENCES ruang(Ruang_id)
      );
-    (lalu enter) 
 
- ketik    show tables;        (lalu enter)
- 
- ketik    desc mengajar;      (lalu enter)
+ ### Menampilkan tabel mengajar     
+
+    DESCRIBE mengajar;
 
 ---------------------------------------------------------------------------------------------------------
 
@@ -151,10 +147,10 @@ Buat tabel nilai dengan kode :
      FOREIGN KEY (Kode_prodi) REFERENCES prodi (Kode_prodi),
      FOREIGN KEY (Inisial) REFERENCES dosen(Inisial)
      );
-    (lalu enter)
- ketik    show tables;        (lalu enter)
- 
- ketik    desc nilai;         (lalu enter)
+
+  ### Menampilkan tabel nilai
+
+    DESCRIBE nilai;
 
 ---------------------------------------------------------------------------------------------------------
 
@@ -163,7 +159,6 @@ Buat tabel nilai dengan kode :
 Menambah kolom agama pada tabel mahasiswa :
    
     ALTER TABLE student ADD COLUMN Agama VARCHAR(10) AFTER Kode_prodi;  
-    (lalu enter)
 
 ---------------------------------------------------------------------------------------------------------
 
@@ -172,7 +167,6 @@ Menambah kolom agama pada tabel mahasiswa :
 Menambah kolom Rid pada tabel ruang :
 
     ALTER TABLE ruang ADD COLUMN Rid  CHAR(10) FIRST;     
-    (lalu enter)
 
 --------------------------------------------------------------------------------------------------------    
 -----------------------------------MENAMBAH KOLOM GRADE--------------------------------------------------
@@ -180,7 +174,6 @@ Menambah kolom Rid pada tabel ruang :
 Menambah kolom Grade pada tabel nilai setelah kolom inisial :
 
      ALTER TABLE nilai ADD COLUMN Grade CHAR AFTER Inisial;  
-     (lalu enter)
 
 --------------------------------------------------------------------------------------------------------
 
@@ -189,8 +182,7 @@ Menambah kolom Grade pada tabel nilai setelah kolom inisial :
 Mengubah nama tabel mahasiswa menjadi student :
     
      ALTER TABLE mahasiswa RENAME TO student;
-     (lalu enter)
-
+     
  -------------------------------------------------------------------------------------------------------
 
  -------------------------------JADIKAN NIM SEBAGAI PRIMARY KEY---------------------------------------   
@@ -198,7 +190,6 @@ Mengubah nama tabel mahasiswa menjadi student :
  Jadikan NIM sebagai PRIMARY KEY pada tabel mahasiswa :
 
      ALTER TABLE student ADD PRIMARY KEY (NIM);
-     (lalu enter)
 
 ---------------------------------------------------------------------------------------------------------
 ## Selamat Kerja Laporan 📑
