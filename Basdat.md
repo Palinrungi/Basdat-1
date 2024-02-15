@@ -1,4 +1,4 @@
-# Selamat mengerjakan Tugas Basis Data*
+# Selamat mengerjakan Tugas Basis Data &3#10024;
 ### Created by Bintang Palinrungi
 
 setelah start mysql pada xampp (pastikan tidak ada error)
@@ -196,3 +196,4 @@ Mengubah nama tabel mahasiswa menjadi student :
      (lalu enter)
 
 ---------------------------------------------------------------------------------------------------------
+## Selamat Kerja Laporan 
