@@ -20,7 +20,7 @@ Buat tabel Prodi dengan kode :
     
    ### Menampilkan tabel prodi
 
-    DESCRIBE mahasiswa;
+    DESCRIBE prodi;
     
 ---------------------------------------------------------------------------------------------------------
 
