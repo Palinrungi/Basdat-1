@@ -1,5 +1,5 @@
-# Selamat mengerjakan Tugas Basis Data &3#10024;
-### Created by Bintang Palinrungi
+# Selamat mengerjakan Tugas Basis Data ✨
+### Created by Bintang Palinrungi ⭐
 
 setelah start mysql pada xampp (pastikan tidak ada error)
 1. buka command prompt
@@ -196,4 +196,4 @@ Mengubah nama tabel mahasiswa menjadi student :
      (lalu enter)
 
 ---------------------------------------------------------------------------------------------------------
-## Selamat Kerja Laporan 
+## Selamat Kerja Laporan 📑
