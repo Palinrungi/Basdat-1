@@ -183,4 +183,15 @@ setelah start mysql pada xampp (pastikan tidak ada error)
      ALTER TABLE student ADD PRIMARY KEY (NIM);
 
 ---------------------------------------------------------------------------------------------------------
+
+## NOTE : jika menampilkan tabel pakai DESCRIBE dan SHOW
+
+### Pakai show
+    show tables;
+
+    desc nama_tabel;
+
+### Pakai DESCRIBE
+    DESCRIBE nama_tabel;
+
 ## Selamat Kerja Laporan 📑
