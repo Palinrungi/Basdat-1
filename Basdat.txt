@@ -1,3 +1,5 @@
+# Selamat mengerjakan Tugas Basis Data*
+
 
 setelah start mysql pada xampp (pastikan tidak ada error)
 1. buka command prompt
