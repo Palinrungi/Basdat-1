@@ -17,6 +17,7 @@ Buat tabel Prodi dengan kode :
     Kode_prodi CHAR(6) PRIMARY KEY,
     Nama_prodi CHAR(30)
     );
+    
     (lalu enter)
 
  ketik    show tables;  (lalu enter)
